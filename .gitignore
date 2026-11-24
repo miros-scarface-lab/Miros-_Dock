@@ -1,0 +1,28 @@
+# Android / Gradle
+.gradle/
+**/build/
+local.properties
+*.iml
+.idea/
+
+# Android signing credentials — never commit secrets
+*.jks
+*.keystore
+
+# Windows / Visual Studio
+.vs/
+[Bb]in/
+[Oo]bj/
+out/
+Debug/
+Release/
+*.user
+*.suo
+*.pdb
+*.msi
+*.exe
+
+# Build and editor noise
+.DS_Store
+Thumbs.db
+*.log
